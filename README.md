@@ -12,17 +12,18 @@
 
 ## Требования
 
-- Nuclear Option (проверено на Early Access 0.34.6).
-- [BepInEx 5](https://github.com/BepInEx/BepInEx/releases) (проверено на 5.4.23.4) — его ставит NOMM.
+- Nuclear Option  (проверено на Steam вресии игры 0.34.6).
+- [BepInEx 5](https://github.com/BepInEx/BepInEx/releases) (проверено на 5.4.23.4) обязателен, без него моды работать не будут !
+- ## По желанию 
 - [Ground Control (RTS)](https://github.com/simonsimme/Ground-Controll-RTS) — мод по желанию (Рекомендую) (проверено на 1.0.0.0). Без него переводится только игра.
 - [NOMM](https://github.com/Combat787/NOMM) — менеджер модов по желанию
 
 ## Установка
 
-**Через менеджер NOMM** — найдите «Rusifikator Nuclear Option + Ground Control» в списке модов и установите.
-
 **Вручную** — скачайте архив со страницы [релизов](https://github.com/Ilyasik2001/Rusifikator-NuclearOption-GroundControl/releases)
 и распакуйте в D:\steamapps\common\Nuclear Option\BepInEx\plugins\(Распаковка мода)
+
+**Через менеджер NOMM** — найдите «Rusifikator Nuclear Option + Ground Control» в списке модов и установите.
 
 Нашли непереведённое — пришлите скриншот в [Issues](https://github.com/Ilyasik2001/Rusifikator-NuclearOption-GroundControl/issues).
 
