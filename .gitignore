@@ -1,0 +1,10 @@
+bin/
+obj/
+dist/
+.vs/
+*.user
+*.suo
+
+# Отладочные файлы плагина (DumpUntranslated)
+untranslated*.txt
+fit_debug.txt

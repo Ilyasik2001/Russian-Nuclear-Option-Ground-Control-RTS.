@@ -1,0 +1,47 @@
+{
+  "Breaking the Atoll": "Штурм атолла",
+  "Infiltrate and destroy a PALA island stronghold under the cover of a raging storm, using the the VT-7 Vagrant.": "Под прикрытием бушующего шторма проникните на островную крепость PALA и уничтожьте её на VT-7 Vagrant.",
+
+  "A pure air & sea battle between two carrier groups. Boscali's Annex Class Assault Carrier vs Primeva's Hyperion Class Fleet Carrier, with their respective compliments of aircraft.\u000b\u000bThe first side to sink the other's carrier wins. All 36 carrier aircraft are available immediately, and cannot be replaced easily if shot down. Fly, fight, and land with care.": "Чисто воздушно-морское сражение двух авианосных групп: штурмовой авианосец Боскали класса «Аннекс» против флотского авианосца Примевы класса «Гиперион», каждый со своей авиагруппой.\u000b\u000bПобеждает тот, кто первым потопит авианосец противника. Все 36 палубных самолётов доступны сразу, а сбитые заменить непросто. Летайте, сражайтесь и садитесь осторожно.",
+
+  "An enormous, high intensity war of attrition with all airbases active and using all available assets.\u000b\u000bSuccessively more powerful aircraft, and eventually thermonuclear weapons, are unlocked by increasing individual and team point score respectively.\n\nVictory is acheived when all enemy aircraft factories are destroyed and the enemy side's aircraft carrier, which will arrive midway through the battle, is sunk.": "Огромная война на истощение высокой интенсивности: работают все авиабазы, в ход идут все доступные силы.\u000b\u000bС ростом личного счёта открываются всё более мощные самолёты, а с ростом командного — в конце концов и термоядерное оружие.\n\nПобеда — когда уничтожены все вражеские авиазаводы и потоплен авианосец противника, который прибудет в середине сражения.",
+
+  "A campaign of island hopping, in which BDF and PALA fight for control of the Ignus Archipelago.\u000b\u000bYour mission is to take and hold the Feldspar International Airport and surrounding smaller airstrips, and to sufficiently degrade the enemy's ability to launch further attacks.": "Кампания по захвату островов: BDF и PALA сражаются за архипелаг Игнус.\u000b\u000bВаша задача — захватить и удержать международный аэропорт Фельдспар и окружающие его небольшие аэродромы, а также подорвать способность противника наносить новые удары.",
+
+  "Altercation Co-op as BDF": "Стычка — кооп. (BDF)",
+  "Altercation Co-op as PALA": "Стычка — кооп. (PALA)",
+  "Confrontation Co-op as BDF": "Противостояние — кооп. (BDF)",
+  "Confrontation Co-op as PALA": "Противостояние — кооп. (PALA)",
+  "Domination Co-op as BDF": "Господство — кооп. (BDF)",
+  "Domination Co-op as PALA": "Господство — кооп. (PALA)",
+  "Escalation Co-op as BDF": "Эскалация — кооп. (BDF)",
+  "Escalation Co-op as PALA": "Эскалация — кооп. (PALA)",
+  "Terminal Control Co-op as BDF": "Контроль терминала — кооп. (BDF)",
+  "Terminal Control Co-op as PALA": "Контроль терминала — кооп. (PALA)",
+
+  "Ground Control Champions": "GC: Чемпионы",
+  "Ground Control Champions GOD": "GC: Чемпионы — БОГ",
+  "Ground Control Duel": "GC: Дуэль",
+  "Ground Control Team Duel": "GC: Командная дуэль",
+  "Ground Control Tutorial": "GC: Обучение",
+
+  "Champions: you against everyone, on the duel map. You start with one airbase, dealt at random every match, two vehicle depots and a handful of AA mounts. The enemy commander holds every other airbase on the map, attacks you from all of them and defends what it holds.\n\nWin by capturing every airbase on the map. Lose your only base and the match is over.\n\nRequires the Ground Control (RTS) mod, and only the host can construct buildings.": "«Чемпионы»: вы против всех на карте дуэли. На старте у вас одна авиабаза (каждый матч — случайная), два депо техники и несколько зенитных установок. Вражеский командир владеет всеми остальными авиабазами, атакует вас с каждой из них и обороняет то, что держит.\n\nПобеда — захват всех авиабаз карты. Потеряете свою единственную базу — матч окончен.\n\nНужен мод Ground Control (RTS); строить здания может только хост.",
+
+  "GOD DIFFICULTY. Champions under a thunderstorm, against an enemy commander with 10 billion to spend and a voice to go with it. You start with one airbase, dealt at random every match, two vehicle depots and a handful of AA mounts. God holds every other airbase on the map.\n\nWin by capturing every airbase on the map. Lose your only base and the match is over. All of you will perish.\n\nRequires the Ground Control (RTS) mod, and only the host can construct buildings.": "СЛОЖНОСТЬ «БОГ». «Чемпионы» в грозу против вражеского командира с 10 миллиардами на расходы и голосом им под стать. На старте у вас одна авиабаза (каждый матч — случайная), два депо техники и несколько зенитных установок. Бог владеет всеми остальными авиабазами карты.\n\nПобеда — захват всех авиабаз карты. Потеряете свою единственную базу — матч окончен. Все вы погибнете.\n\nНужен мод Ground Control (RTS); строить здания может только хост.",
+
+  "One-on-one commander duel. Each side starts with a single highway airstrip, two vehicle depots and a handful of AA mounts. Every other airbase on the map is shut.\n\nThere is no pre-placed army and no pre-placed industry: you build your economy from scratch out of faction funds with the Ground Control (RTS) BUILD window - gold mines for income, factories for units - buy ground forces at your depots, and take the fight to the other strip.\n\nWin by capturing the enemy airstrip. Mines and factories are buildings, so bombing the other commander's economy is as valid as shooting his tanks.\n\nRequires the Ground Control (RTS) mod, and only the host can construct buildings.": "Дуэль командиров один на один. У каждой стороны на старте одна шоссейная полоса, два депо техники и несколько зенитных установок. Все остальные авиабазы карты закрыты.\n\nГотовой армии и промышленности нет: экономику вы строите с нуля на средства фракции в окне СТРОИТЬ мода Ground Control (RTS) — золотые рудники дают доход, заводы выпускают технику, — покупаете наземные силы в своих депо и идёте в бой за чужую полосу.\n\nПобеда — захват вражеской полосы. Рудники и заводы — это здания, так что бомбить экономику соперника так же полезно, как жечь его танки.\n\nНужен мод Ground Control (RTS); строить здания может только хост.",
+
+  "Team commander battle. Boscali holds North Boscali Airbase, Primeva holds Sandrift Airbase, and every other airbase on the map is neutral and capturable.\n\nEach side starts with two vehicle depots, a radar, a few AA mounts and two dozers. There is no pre-placed army and no pre-placed industry: build your economy with the Ground Control (RTS) BUILD window, buy ground forces at your depots, and take the fight to the enemy.\n\nWin by capturing the enemy home base.\n\nRequires the Ground Control (RTS) mod on every player.": "Командная битва командиров. Боскали владеет авиабазой Северный Боскали, Примева — авиабазой Сэндрифт, все остальные авиабазы карты нейтральны, их можно захватить.\n\nУ каждой стороны на старте два депо техники, радар, несколько зенитных установок и два бульдозера. Готовой армии и промышленности нет: стройте экономику в окне СТРОИТЬ мода Ground Control (RTS), покупайте наземные силы в своих депо и несите бой противнику.\n\nПобеда — захват главной базы противника.\n\nМод Ground Control (RTS) нужен каждому игроку.",
+
+  "Learn Ground Control (RTS) one step at a time, on the duel's map against an enemy that does not fight back.\n\nA card on the left asks for one thing at a time: buy fuel and ammunition, build a gold mine, buy and order a vehicle, capture Maris Airport, launch an aircraft, ping for your team and command from the cockpit. Each step moves on by itself once you have done it.\n\nWin by destroying the two anti-air guns at Dustbowl Highway Strip from the air, then capturing it. Singleplayer. Requires the Ground Control (RTS) mod.": "Осваивайте Ground Control (RTS) шаг за шагом на карте дуэли, против противника, который не отвечает огнём.\n\nКарточка слева просит об одном действии за раз: купить топливо и боеприпасы, построить золотой рудник, купить технику и отдать ей приказ, захватить аэропорт Марис, поднять самолёт, поставить метку для команды и покомандовать из кабины. Каждый шаг засчитывается сам, как только вы его выполните.\n\nПобеда — уничтожить с воздуха две зенитки у полосы шоссе Дастбоул, а затем захватить её. Одиночная игра. Нужен мод Ground Control (RTS).",
+
+  "The enemy airstrip has fallen.": "Вражеская полоса пала.",
+
+  "Tutorial 1 - Taxi and Takeoff": "Обучение 1 — Руление и взлёт",
+  "Tutorial 2 - Landing": "Обучение 2 — Посадка",
+  "Tutorial 3 - Targeting and Weapons": "Обучение 3 — Цели и оружие",
+  "Tutorial 4 - Infrared Countermeasures": "Обучение 4 — Защита от ИК-ракет",
+  "Tutorial 5 - Radar Countermeasures": "Обучение 5 — Защита от радарных ракет",
+  "Free Flight - Heartland": "Свободный полёт — Heartland",
+  "Free Flight - Ignus Archipelago": "Свободный полёт — Ignus Archipelago"
+}

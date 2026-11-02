@@ -1,0 +1,23 @@
+{
+  "VANILLA": "СТАНДАРТ",
+  "BALANCED A2G": "БАЛАНС В-З",
+  "BALANCED A2A": "БАЛАНС В-В",
+  "BALANCED BOMBING": "БАЛАНС: БОМБЫ",
+  "ALL AGM": "ТОЛЬКО AGM",
+  "KINGPINS": "KINGPIN",
+  "MIXED BOMBING": "СМЕШАННЫЕ БОМБЫ",
+  "MIXED ATTACK": "СМЕШАННЫЙ УДАР",
+  "57MM SPECIAL": "57-ММ ОСОБЫЙ",
+  "30MM SPECIAL": "30-ММ ОСОБЫЙ",
+  "TUSKOS": "TUSKO",
+  "AUGERS": "AUGER",
+  "PILEDRIVER HE": "PILEDRIVER ОФ",
+  "GLIDE BOMBS": "ПЛАНИРУЮЩИЕ БОМБЫ",
+  "SEAD": "ПОДАВЛЕНИЕ ПВО",
+  "MISSILE TRUCK": "РАКЕТОНОСЕЦ",
+  "BALLISTIC CONVENTIONAL": "БАЛЛИСТИКА (НЕЯДЕРН.)",
+  "CRUISE MISSILES": "КРЫЛАТЫЕ РАКЕТЫ",
+  "BUNKER BUSTING": "ПРОТИВ БУНКЕРОВ",
+  "ANTI-SHIP": "ПРОТИВОКОРАБЕЛЬНЫЙ",
+  "GUNSHIP": "ГАНШИП"
+}

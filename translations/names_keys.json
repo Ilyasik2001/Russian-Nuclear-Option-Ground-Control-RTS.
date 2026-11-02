@@ -1,0 +1,16 @@
+{
+  "Mouse0": "ЛКМ",
+  "Mouse1": "ПКМ",
+  "Mouse2": "СКМ",
+  "Mouse3": "Кнопка мыши 4",
+  "Mouse4": "Кнопка мыши 5",
+  "LeftControl": "Левый Ctrl",
+  "RightControl": "Правый Ctrl",
+  "LeftShift": "Левый Shift",
+  "RightShift": "Правый Shift",
+  "LeftAlt": "Левый Alt",
+  "RightAlt": "Правый Alt",
+  "Space": "Пробел",
+  "Period": "Точка",
+  "Comma": "Запятая"
+}

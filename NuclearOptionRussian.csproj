@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>NuclearOptionRussian</AssemblyName>
+    <RootNamespace>NuclearOptionRussian</RootNamespace>
+    <!-- Должна совпадать с Plugin.Version: каталог NOMM сверяет её с версией релиза. -->
+    <Version>1.0.0</Version>
+    <Product>Nuclear Option Russian</Product>
+    <Description>Русский перевод Nuclear Option и мода Ground Control (RTS)</Description>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <!-- Путь к игре можно переопределить: dotnet build -p:GameDir="..." -->
+    <GameDir Condition="'$(GameDir)' == ''">D:\SteamLibrary\steamapps\common\Nuclear Option</GameDir>
+    <ManagedDir>$(GameDir)\NuclearOption_Data\Managed</ManagedDir>
+    <BepInExDir>$(GameDir)\BepInEx</BepInExDir>
+    <PluginDir>$(BepInExDir)\plugins\NuclearOptionRussian</PluginDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="tools\**" />
+    <None Remove="tools\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net472" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx" HintPath="$(BepInExDir)\core\BepInEx.dll" Private="false" />
+    <Reference Include="0Harmony" HintPath="$(BepInExDir)\core\0Harmony.dll" Private="false" />
+    <Reference Include="Newtonsoft.Json" HintPath="$(ManagedDir)\Newtonsoft.Json.dll" Private="false" />
+    <Reference Include="UnityEngine" HintPath="$(ManagedDir)\UnityEngine.dll" Private="false" />
+    <Reference Include="UnityEngine.CoreModule" HintPath="$(ManagedDir)\UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="UnityEngine.IMGUIModule" HintPath="$(ManagedDir)\UnityEngine.IMGUIModule.dll" Private="false" />
+    <Reference Include="UnityEngine.TextRenderingModule" HintPath="$(ManagedDir)\UnityEngine.TextRenderingModule.dll" Private="false" />
+    <Reference Include="UnityEngine.TextCoreFontEngineModule" HintPath="$(ManagedDir)\UnityEngine.TextCoreFontEngineModule.dll" Private="false" />
+    <Reference Include="UnityEngine.UI" HintPath="$(ManagedDir)\UnityEngine.UI.dll" Private="false" />
+    <Reference Include="Unity.TextMeshPro" HintPath="$(ManagedDir)\Unity.TextMeshPro.dll" Private="false" />
+  </ItemGroup>
+
+  <!-- После сборки копируем DLL, переводы и шрифт в папку плагинов BepInEx (если игра там установлена) -->
+  <Target Name="CopyToPlugins" AfterTargets="Build" Condition="Exists('$(BepInExDir)') Or '$(PluginDir)' != '$(BepInExDir)\plugins\NuclearOptionRussian'">
+    <ItemGroup>
+      <TranslationFiles Include="translations\*.json" />
+      <FontFiles Include="fonts\*.*" />
+    </ItemGroup>
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(PluginDir)" />
+    <Copy SourceFiles="@(TranslationFiles)" DestinationFolder="$(PluginDir)\translations" />
+    <Copy SourceFiles="@(FontFiles)" DestinationFolder="$(PluginDir)\fonts" />
+  </Target>
+
+</Project>
