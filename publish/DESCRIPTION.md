@@ -76,12 +76,12 @@
 
 ## Нашли непереведённое?
 
-Пришлите скриншот в Issues на GitHub: https://github.com/ILya/Rusifikator-NuclearOption-GroundControl/issues
+Пришлите скриншот в Issues на GitHub: https://github.com/Ilyasik2001/Rusifikator-NuclearOption-GroundControl/issues
 
 ## Авторы
 
 Плагин и перевод — **Tatarok**. Шрифт Tektur — The Tektur Project Authors (SIL Open Font License 1.1).
-Исходный код открыт: https://github.com/ILya/Rusifikator-NuclearOption-GroundControl (лицензия MIT).
+Исходный код открыт: https://github.com/Ilyasik2001/Rusifikator-NuclearOption-GroundControl (лицензия MIT).
 ```
 
 ---

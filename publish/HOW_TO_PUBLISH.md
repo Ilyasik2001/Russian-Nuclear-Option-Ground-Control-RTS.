@@ -25,14 +25,14 @@ Steam Workshop для этого не подходит: Мастерская Nuc
 
 ## Шаг 1. Репозиторий на GitHub
 
-1. Откройте https://github.com/new под своим аккаунтом **ILya**.
+1. Откройте https://github.com/new под своим аккаунтом **Ilyasik2001**.
 2. **Repository name:** `Rusifikator-NuclearOption-GroundControl`.
 3. **Description:** `Русификатор Nuclear Option + Ground Control`.
 4. Видимость **Public**.
 5. Галочки «Add a README», «.gitignore», «license» **не ставьте** — эти файлы уже есть.
 6. Нажмите **Create repository**.
 
-> Проверьте адрес нового репозитория. Если он не `https://github.com/ILya/Rusifikator-NuclearOption-GroundControl`
+> Проверьте адрес нового репозитория. Если он не `https://github.com/Ilyasik2001/Rusifikator-NuclearOption-GroundControl`
 > (например, другой регистр букв в нике), поправьте ссылки в
 > `publish\nomnom\Rusifikator-NuclearOption-GroundControl.json`, `publish\DESCRIPTION.md`, `README.md`
 > и в команде ниже.
@@ -42,7 +42,7 @@ Steam Workshop для этого не подходит: Мастерская Nuc
 В папке проекта уже есть git-репозиторий со всеми коммитами. Выполните в терминале:
 
 ```
-git -C "D:\mods NC\Rusifikator-NuclearOption-GroundControl" remote add origin https://github.com/ILya/Rusifikator-NuclearOption-GroundControl.git
+git -C "D:\mods NC\Rusifikator-NuclearOption-GroundControl" remote add origin https://github.com/Ilyasik2001/Rusifikator-NuclearOption-GroundControl.git
 git -C "D:\mods NC\Rusifikator-NuclearOption-GroundControl" push -u origin main
 ```
 
@@ -69,7 +69,7 @@ git -C "D:\mods NC\Rusifikator-NuclearOption-GroundControl" push -u origin main
 6. **Publish release.**
 
 Ссылка на архив должна получиться такой:
-`https://github.com/ILya/Rusifikator-NuclearOption-GroundControl/releases/download/v1.0.0/Rusifikator-NuclearOption-GroundControl-1.0.0.zip`
+`https://github.com/Ilyasik2001/Rusifikator-NuclearOption-GroundControl/releases/download/v1.0.0/Rusifikator-NuclearOption-GroundControl-1.0.0.zip`
 — именно она указана в заявке для NOMM.
 
 > Загружайте именно тот архив, что лежит в `dist` сейчас: его контрольная сумма уже вписана в заявку.

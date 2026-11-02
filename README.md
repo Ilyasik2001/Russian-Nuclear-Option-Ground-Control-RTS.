@@ -23,11 +23,11 @@
 
 **Через NOMM** — найдите «Rusifikator Nuclear Option + Ground Control» в списке модов и установите.
 
-**Вручную** — скачайте архив со страницы [релизов](https://github.com/ILya/Rusifikator-NuclearOption-GroundControl/releases)
+**Вручную** — скачайте архив со страницы [релизов](https://github.com/Ilyasik2001/Rusifikator-NuclearOption-GroundControl/releases)
 и распакуйте в `<папка игры>\BepInEx\plugins\Rusifikator-NuclearOption-GroundControl\`, чтобы
 получилось `...\Rusifikator-NuclearOption-GroundControl.dll`, `...\translations\`, `...\fonts\`.
 
-Нашли непереведённое — пришлите скриншот в [Issues](https://github.com/ILya/Rusifikator-NuclearOption-GroundControl/issues).
+Нашли непереведённое — пришлите скриншот в [Issues](https://github.com/Ilyasik2001/Rusifikator-NuclearOption-GroundControl/issues).
 
 ## Настройки
 
