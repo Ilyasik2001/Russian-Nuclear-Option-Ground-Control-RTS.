@@ -17,7 +17,7 @@ namespace NuclearOptionRussian
     {
         public const string Guid = "com.gcru.russian";
         public const string Name = "Rusifikator Nuclear Option + Ground Control";
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.1";
 
         internal const string GroundControlAssembly = "GroundControlRts";
         internal const string LocalizationPatchGuid = "com.noms.localizationpatch";

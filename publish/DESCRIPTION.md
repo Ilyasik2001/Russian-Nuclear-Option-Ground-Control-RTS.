@@ -55,13 +55,13 @@
 
 - Nuclear Option (проверено на Early Access 0.34.6);
 - BepInEx 5 (его ставит NOMM);
-- Ground Control (RTS) 0.9.9.9 — по желанию.
+- Ground Control (RTS) 1.0.0.0 — по желанию.
 
 ## Установка
 
 **Через NOMM:** найдите «Rusifikator Nuclear Option + Ground Control» в списке модов и нажмите «Установить».
 
-**Вручную:** скачайте `Rusifikator-NuclearOption-GroundControl-1.0.0.zip` и распакуйте в папку
+**Вручную:** скачайте архив `Rusifikator-NuclearOption-GroundControl-<версия>.zip` из релизов и распакуйте в папку
 `<папка игры>\BepInEx\plugins\Rusifikator-NuclearOption-GroundControl\`.
 
 ## Известные ограничения

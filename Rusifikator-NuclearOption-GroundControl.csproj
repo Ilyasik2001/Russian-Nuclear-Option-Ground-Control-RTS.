@@ -5,7 +5,7 @@
     <AssemblyName>Rusifikator-NuclearOption-GroundControl</AssemblyName>
     <RootNamespace>NuclearOptionRussian</RootNamespace>
     <!-- Должна совпадать с Plugin.Version: каталог NOMM сверяет её с версией релиза. -->
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Product>Rusifikator Nuclear Option + Ground Control</Product>
     <Description>Русификатор Nuclear Option и мода Ground Control (RTS)</Description>
     <LangVersion>latest</LangVersion>
