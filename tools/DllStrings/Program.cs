@@ -2,7 +2,8 @@
 // и все строковые литералы (#US heap).
 // Режим ldstr: для каждого строкового литерала — метод, где он встречается,
 // и ближайший следующий вызов (куда строка уходит). Формат: метод \t вызов \t строка.
-// Использование: dotnet run -- <путь к dll> [refs|members|strings|ldstr|all]
+// Режим calls: все вызовы каждого метода (метод \t вызов) — видно, пишет ли метод в журнал или на экран.
+// Использование: dotnet run -- <путь к dll> [refs|members|strings|ldstr|calls|all]
 using System.Reflection;
 using System.Reflection.Emit;
 using System.Reflection.Metadata;
@@ -54,7 +55,7 @@ if (mode is "strings" or "all")
     }
 }
 
-if (mode == "ldstr")
+if (mode is "ldstr" or "calls")
 {
     var oneByte = new OpCode[0x100];
     var twoByte = new OpCode[0x100];
@@ -104,6 +105,14 @@ if (mode == "ldstr")
                         pos += 4; break;
                 }
                 ins.Add((op, token));
+            }
+
+            if (mode == "calls")
+            {
+                foreach (var (op, token) in ins)
+                    if (op == OpCodes.Call || op == OpCodes.Callvirt || op == OpCodes.Newobj)
+                        Console.WriteLine(where + "\t" + MethodName(token));
+                continue;
             }
 
             for (int i = 0; i < ins.Count; i++)
