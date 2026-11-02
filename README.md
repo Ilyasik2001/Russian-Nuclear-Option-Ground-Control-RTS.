@@ -16,9 +16,6 @@
 - [BepInEx 5](https://github.com/BepInEx/BepInEx/releases) (проверено на 5.4.23.4) — его ставит NOMM.
 - Ground Control (RTS) — по желанию (проверено на 0.9.9.9). Без него переводится только игра.
 
-**Russian Localization Patch не нужен.** Если он установлен, выключите или удалите его: перевод игры
-уже входит в этот мод, а Localization Patch каждые 0,3 секунды перебирает весь текст и вызывает рывки.
-
 ## Установка
 
 **Через NOMM** — найдите «Rusifikator Nuclear Option + Ground Control» в списке модов и установите.
