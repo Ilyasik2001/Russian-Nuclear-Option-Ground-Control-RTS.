@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
-    <AssemblyName>NuclearOptionRussian</AssemblyName>
+    <AssemblyName>Rusifikator-NuclearOption-GroundControl</AssemblyName>
     <RootNamespace>NuclearOptionRussian</RootNamespace>
     <!-- Должна совпадать с Plugin.Version: каталог NOMM сверяет её с версией релиза. -->
     <Version>1.0.0</Version>
-    <Product>Nuclear Option Russian</Product>
-    <Description>Русский перевод Nuclear Option и мода Ground Control (RTS)</Description>
+    <Product>Rusifikator Nuclear Option + Ground Control</Product>
+    <Description>Русификатор Nuclear Option и мода Ground Control (RTS)</Description>
     <LangVersion>latest</LangVersion>
     <Nullable>disable</Nullable>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
@@ -16,7 +16,7 @@
     <GameDir Condition="'$(GameDir)' == ''">D:\SteamLibrary\steamapps\common\Nuclear Option</GameDir>
     <ManagedDir>$(GameDir)\NuclearOption_Data\Managed</ManagedDir>
     <BepInExDir>$(GameDir)\BepInEx</BepInExDir>
-    <PluginDir>$(BepInExDir)\plugins\NuclearOptionRussian</PluginDir>
+    <PluginDir>$(BepInExDir)\plugins\Rusifikator-NuclearOption-GroundControl</PluginDir>
   </PropertyGroup>
 
   <ItemGroup>
@@ -42,7 +42,7 @@
   </ItemGroup>
 
   <!-- После сборки копируем DLL, переводы и шрифт в папку плагинов BepInEx (если игра там установлена) -->
-  <Target Name="CopyToPlugins" AfterTargets="Build" Condition="Exists('$(BepInExDir)') Or '$(PluginDir)' != '$(BepInExDir)\plugins\NuclearOptionRussian'">
+  <Target Name="CopyToPlugins" AfterTargets="Build" Condition="Exists('$(BepInExDir)') Or '$(PluginDir)' != '$(BepInExDir)\plugins\Rusifikator-NuclearOption-GroundControl'">
     <ItemGroup>
       <TranslationFiles Include="translations\*.json" />
       <FontFiles Include="fonts\*.*" />

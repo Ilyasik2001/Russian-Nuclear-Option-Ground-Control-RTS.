@@ -16,7 +16,7 @@ namespace NuclearOptionRussian
     public class Plugin : BaseUnityPlugin
     {
         public const string Guid = "com.gcru.russian";
-        public const string Name = "Nuclear Option Russian";
+        public const string Name = "Rusifikator Nuclear Option + Ground Control";
         public const string Version = "1.0.0";
 
         internal const string GroundControlAssembly = "GroundControlRts";

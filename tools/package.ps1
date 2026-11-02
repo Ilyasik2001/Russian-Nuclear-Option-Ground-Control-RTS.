@@ -1,6 +1,6 @@
-# Сборка архива для релиза: dist\NuclearOptionRussian-<версия>.zip и его SHA-256 (нужен каталогу NOMM).
-# Внутри архива файлы лежат без общей папки: NuclearOptionRussian.dll, translations\, fonts\ и документы —
-# архив распаковывается в BepInEx\plugins\NuclearOptionRussian.
+# Сборка архива для релиза: dist\Rusifikator-NuclearOption-GroundControl-<версия>.zip и его SHA-256 (нужен каталогу NOMM).
+# Внутри архива файлы лежат без общей папки: Rusifikator-NuclearOption-GroundControl.dll, translations\, fonts\
+# и документы — архив распаковывается в BepInEx\plugins\Rusifikator-NuclearOption-GroundControl.
 #
 #   powershell -File tools\package.ps1
 #   powershell -File tools\package.ps1 -GameDir "E:\Steam\steamapps\common\Nuclear Option"
@@ -9,9 +9,10 @@ param(
 )
 $ErrorActionPreference = 'Stop'
 $root = Split-Path $PSScriptRoot -Parent
-$project = Join-Path $root 'NuclearOptionRussian.csproj'
+$name = 'Rusifikator-NuclearOption-GroundControl'
+$project = Join-Path $root "$name.csproj"
 $version = ([xml](Get-Content $project -Raw)).Project.PropertyGroup.Version | Where-Object { $_ } | Select-Object -First 1
-if (-not $version) { throw 'Version not found in NuclearOptionRussian.csproj' }
+if (-not $version) { throw "Version not found in $name.csproj" }
 
 $dist = Join-Path $root 'dist'
 $stage = Join-Path $dist 'stage'
@@ -27,7 +28,7 @@ foreach ($doc in 'README.md', 'LICENSE', 'THIRD_PARTY_NOTICES.md', 'CHANGELOG.md
     Copy-Item (Join-Path $root $doc) $stage
 }
 
-$zip = Join-Path $dist "NuclearOptionRussian-$version.zip"
+$zip = Join-Path $dist "$name-$version.zip"
 if (Test-Path $zip) { Remove-Item $zip -Force }
 # ZipFile.CreateFromDirectory в .NET Framework пишет пути через "\", а по стандарту ZIP нужен "/".
 Add-Type -AssemblyName System.IO.Compression, System.IO.Compression.FileSystem

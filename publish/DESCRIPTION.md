@@ -4,11 +4,19 @@
 
 ---
 
-## 1. Короткое описание
+## 1. Название и короткое описание
 
-Для поля «About» репозитория на GitHub и для каталога NOMM (не длиннее 350 символов).
+**Название мода** (каталог NOMM, релизы, журнал BepInEx):
 
-> Полный русский перевод Nuclear Option и мода Ground Control (RTS): меню, HUD, ангар, энциклопедия, миссии, обучение, советы и все окна командования. Шрифт с кириллицей, без подтормаживаний, длинные надписи сами подстраиваются под кнопки.
+> Rusifikator Nuclear Option + Ground Control
+
+**Описание репозитория на GitHub** (поле Description при создании, потом — «About»):
+
+> Русификатор Nuclear Option + Ground Control
+
+**Короткое описание** для форумов и Discord (не длиннее 350 символов):
+
+> Русификатор Nuclear Option + Ground Control: полный русский перевод игры и мода Ground Control (RTS) — меню, HUD, ангар, энциклопедия, миссии, обучение, советы и все окна командования. Шрифт с кириллицей, без подтормаживаний, длинные надписи сами подстраиваются под кнопки.
 
 ---
 
@@ -17,7 +25,7 @@
 Для страницы релиза, Discord, форумов и обсуждений Steam.
 
 ```markdown
-# Nuclear Option — русский перевод (+ Ground Control RTS)
+# Русификатор Nuclear Option + Ground Control
 
 Полный русский перевод **Nuclear Option** и мода **Ground Control (RTS)**.
 
@@ -51,10 +59,10 @@
 
 ## Установка
 
-**Через NOMM:** найдите «Nuclear Option Russian» в списке модов и нажмите «Установить».
+**Через NOMM:** найдите «Rusifikator Nuclear Option + Ground Control» в списке модов и нажмите «Установить».
 
-**Вручную:** скачайте `NuclearOptionRussian-1.0.0.zip` и распакуйте в папку
-`<папка игры>\BepInEx\plugins\NuclearOptionRussian\`.
+**Вручную:** скачайте `Rusifikator-NuclearOption-GroundControl-1.0.0.zip` и распакуйте в папку
+`<папка игры>\BepInEx\plugins\Rusifikator-NuclearOption-GroundControl\`.
 
 ⚠️ **Russian Localization Patch не нужен.** Если он установлен, выключите или удалите его:
 перевод игры уже входит в этот мод, а два перевода вместе вызывают рывки камеры.
@@ -68,12 +76,12 @@
 
 ## Нашли непереведённое?
 
-Пришлите скриншот в Issues на GitHub: https://github.com/ILya/NuclearOptionRussian/issues
+Пришлите скриншот в Issues на GitHub: https://github.com/ILya/Rusifikator-NuclearOption-GroundControl/issues
 
 ## Авторы
 
 Плагин и перевод — **Tatarok**. Шрифт Tektur — The Tektur Project Authors (SIL Open Font License 1.1).
-Исходный код открыт: https://github.com/ILya/NuclearOptionRussian (лицензия MIT).
+Исходный код открыт: https://github.com/ILya/Rusifikator-NuclearOption-GroundControl (лицензия MIT).
 ```
 
 ---
@@ -85,7 +93,7 @@
 ```markdown
 Первый выпуск.
 
-**Установка:** через NOMM или распакуйте архив в `BepInEx\plugins\NuclearOptionRussian\`.
+**Установка:** через NOMM или распакуйте архив в `BepInEx\plugins\Rusifikator-NuclearOption-GroundControl\`.
 Russian Localization Patch не нужен — выключите или удалите его.
 
 **Что внутри**
@@ -104,4 +112,4 @@ Russian Localization Patch не нужен — выключите или уда�
 
 For English-speaking channels.
 
-> Full Russian translation of Nuclear Option and the Ground Control (RTS) mod: menus, HUD, hangar, encyclopedia, missions, tutorials, tips and every commander window. Bundles a Cyrillic font, translates text only when it appears (no stutter) and shrinks long labels to fit their buttons. Replaces Russian Localization Patch — do not run both. Install with NOMM or extract into `BepInEx\plugins\NuclearOptionRussian\`.
+> **Rusifikator Nuclear Option + Ground Control** — full Russian translation of Nuclear Option and the Ground Control (RTS) mod: menus, HUD, hangar, encyclopedia, missions, tutorials, tips and every commander window. Bundles a Cyrillic font, translates text only when it appears (no stutter) and shrinks long labels to fit their buttons. Replaces Russian Localization Patch — do not run both. Install with NOMM or extract into `BepInEx\plugins\Rusifikator-NuclearOption-GroundControl\`.

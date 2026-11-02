@@ -1,4 +1,4 @@
-# Nuclear Option Russian
+# Русификатор Nuclear Option + Ground Control
 
 Русский перевод **Nuclear Option** и мода **Ground Control (RTS)** — плагин для BepInEx 5.
 
@@ -21,13 +21,13 @@
 
 ## Установка
 
-**Через NOMM** — найдите «Nuclear Option Russian» в списке модов и установите.
+**Через NOMM** — найдите «Rusifikator Nuclear Option + Ground Control» в списке модов и установите.
 
-**Вручную** — скачайте архив со страницы [релизов](https://github.com/ILya/NuclearOptionRussian/releases)
-и распакуйте в `<папка игры>\BepInEx\plugins\NuclearOptionRussian\`, чтобы
-получилось `...\NuclearOptionRussian\NuclearOptionRussian.dll`, `...\translations\`, `...\fonts\`.
+**Вручную** — скачайте архив со страницы [релизов](https://github.com/ILya/Rusifikator-NuclearOption-GroundControl/releases)
+и распакуйте в `<папка игры>\BepInEx\plugins\Rusifikator-NuclearOption-GroundControl\`, чтобы
+получилось `...\Rusifikator-NuclearOption-GroundControl.dll`, `...\translations\`, `...\fonts\`.
 
-Нашли непереведённое — пришлите скриншот в [Issues](https://github.com/ILya/NuclearOptionRussian/issues).
+Нашли непереведённое — пришлите скриншот в [Issues](https://github.com/ILya/Rusifikator-NuclearOption-GroundControl/issues).
 
 ## Настройки
 
@@ -55,10 +55,11 @@
 
 ## English
 
-Russian translation of Nuclear Option and the Ground Control (RTS) mod, as a BepInEx 5 plugin.
-It replaces Russian Localization Patch (do not run both) and translates text only when it appears,
-so there is no periodic full-scene scan. Install with NOMM or extract the release archive into
-`BepInEx\plugins\NuclearOptionRussian\`. Ground Control is optional.
+Rusifikator Nuclear Option + Ground Control is a Russian translation of Nuclear Option and the
+Ground Control (RTS) mod, as a BepInEx 5 plugin. It replaces Russian Localization Patch (do not run both)
+and translates text only when it appears, so there is no periodic full-scene scan. Install with NOMM
+or extract the release archive into `BepInEx\plugins\Rusifikator-NuclearOption-GroundControl\`.
+Ground Control is optional.
 
 ---
 
@@ -72,8 +73,8 @@ so there is no periodic full-scene scan. Install with NOMM or extract the releas
 dotnet build -c Release -p:GameDir="D:\SteamLibrary\steamapps\common\Nuclear Option"
 ```
 
-Без `-p:GameDir` используется путь из `NuclearOptionRussian.csproj`. После сборки DLL, переводы и шрифт
-копируются в `BepInEx\plugins\NuclearOptionRussian` игры.
+Без `-p:GameDir` используется путь из `Rusifikator-NuclearOption-GroundControl.csproj`. После сборки DLL,
+переводы и шрифт копируются в `BepInEx\plugins\Rusifikator-NuclearOption-GroundControl` игры.
 
 Архив для релиза и его SHA-256:
 
@@ -81,7 +82,8 @@ dotnet build -c Release -p:GameDir="D:\SteamLibrary\steamapps\common\Nuclear Opt
 powershell -File tools\package.ps1
 ```
 
-Версия берётся из `<Version>` в `NuclearOptionRussian.csproj` и должна совпадать с `Plugin.Version`.
+Версия берётся из `<Version>` в `Rusifikator-NuclearOption-GroundControl.csproj` и должна совпадать
+с `Plugin.Version`.
 
 ### Как работает
 
