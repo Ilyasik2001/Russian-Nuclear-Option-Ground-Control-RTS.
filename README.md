@@ -53,8 +53,7 @@
 ## English
 
 Rusifikator Nuclear Option + Ground Control is a Russian translation of Nuclear Option and the
-Ground Control (RTS) mod, as a BepInEx 5 plugin. It replaces Russian Localization Patch (do not run both)
-and translates text only when it appears, so there is no periodic full-scene scan. Install with NOMM
+Ground Control (RTS) mod, as a BepInEx 5 plugin. It translates text only when it appears, so there is no periodic full-scene scan. Install with NOMM
 or extract the release archive into `BepInEx\plugins\Rusifikator-NuclearOption-GroundControl\`.
 Ground Control is optional.
 

@@ -64,9 +64,6 @@
 **Вручную:** скачайте `Rusifikator-NuclearOption-GroundControl-1.0.0.zip` и распакуйте в папку
 `<папка игры>\BepInEx\plugins\Rusifikator-NuclearOption-GroundControl\`.
 
-⚠️ **Russian Localization Patch не нужен.** Если он установлен, выключите или удалите его:
-перевод игры уже входит в этот мод, а два перевода вместе вызывают рывки камеры.
-
 ## Известные ограничения
 
 - Обозначения оружия (AGM-48, IRM-S2), позывные и сокращения на HUD (ALT, HDG) остаются на английском.
@@ -94,7 +91,6 @@
 Первый выпуск.
 
 **Установка:** через NOMM или распакуйте архив в `BepInEx\plugins\Rusifikator-NuclearOption-GroundControl\`.
-Russian Localization Patch не нужен — выключите или удалите его.
 
 **Что внутри**
 - Собственный перевод интерфейса игры (около 2000 строк): меню, настройки, HUD, ангар,
@@ -112,4 +108,4 @@ Russian Localization Patch не нужен — выключите или уда�
 
 For English-speaking channels.
 
-> **Rusifikator Nuclear Option + Ground Control** — full Russian translation of Nuclear Option and the Ground Control (RTS) mod: menus, HUD, hangar, encyclopedia, missions, tutorials, tips and every commander window. Bundles a Cyrillic font, translates text only when it appears (no stutter) and shrinks long labels to fit their buttons. Replaces Russian Localization Patch — do not run both. Install with NOMM or extract into `BepInEx\plugins\Rusifikator-NuclearOption-GroundControl\`.
+> **Rusifikator Nuclear Option + Ground Control** — full Russian translation of Nuclear Option and the Ground Control (RTS) mod: menus, HUD, hangar, encyclopedia, missions, tutorials, tips and every commander window. Bundles a Cyrillic font, translates text only when it appears (no stutter) and shrinks long labels to fit their buttons. Install with NOMM or extract into `BepInEx\plugins\Rusifikator-NuclearOption-GroundControl\`.
