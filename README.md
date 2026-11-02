@@ -21,7 +21,8 @@
 ## Установка
 
 **Вручную** — скачайте архив со страницы [релизов](https://github.com/Ilyasik2001/Rusifikator-NuclearOption-GroundControl/releases)
-и распакуйте в D:\steamapps\common\Nuclear Option\BepInEx\plugins\(Распаковка мода)
+и распакуйте в D:\steamapps\common\Nuclear Option\BepInEx\plugins\(Распаковка архива мода)
+Должно получится так: D:\steamapps\common\Nuclear Option\BepInEx\plugins\Rusifikator-NuclearOption-GroundControl 1.0.1
 
 **Через менеджер NOMM** — найдите «Rusifikator Nuclear Option + Ground Control» в списке модов и установите.
 
