@@ -14,7 +14,7 @@
 
 - Nuclear Option (проверено на Early Access 0.34.6).
 - [BepInEx 5](https://github.com/BepInEx/BepInEx/releases) (проверено на 5.4.23.4) — его ставит NOMM.
-- Ground Control (RTS) — по желанию (проверено на 0.9.9.9). Без него переводится только игра.
+- [Ground Control (RTS)](https://github.com/simonsimme/Ground-Controll-RTS) — по желанию (проверено на 1.0.0.0). Без него переводится только игра.
 
 ## Установка
 
