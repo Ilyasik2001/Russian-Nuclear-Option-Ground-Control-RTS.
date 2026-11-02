@@ -15,7 +15,7 @@
 - Nuclear Option (проверено на Early Access 0.34.6).
 - [BepInEx 5](https://github.com/BepInEx/BepInEx/releases) (проверено на 5.4.23.4) — его ставит NOMM.
 - [Ground Control (RTS)](https://github.com/simonsimme/Ground-Controll-RTS) — мод по желанию (Рекомендую) (проверено на 1.0.0.0). Без него переводится только игра.
-- [NOMM](https://github.com/Combat787/NOMM) — по желанию
+- [NOMM](https://github.com/Combat787/NOMM) — менеджер модов по желанию
 
 ## Установка
 
