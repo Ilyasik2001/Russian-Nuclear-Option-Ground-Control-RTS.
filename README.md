@@ -9,6 +9,22 @@
 Гибридный подход. Мод Ground Control ставить не обязательно. Без него русификатор переведет только саму Nuclear Option. Если мод установлен — переведется и он.
 
 Работает незаметно. Текст переводится прямо в момент появления на экране, без постоянного перебора всех надписей. Поэтому камера и техника двигаются плавно, без рывков и просадок FPS.
+## Скрины перевода 
+<img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/a4677f0f-e953-48ee-af0b-aaab7ec41903" />
+
+<img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/7d6e9e54-1347-4161-8f96-c00cb69d7ac8" />
+
+<img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/85fb64da-386d-4c41-a11a-e355d858a14b" />
+
+<img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/cea9c4c3-d8b4-4235-8194-83a17c721968" />
+
+<img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/96c814ca-e162-4c3e-b52a-56e1bcfbcf74" />
+
+<img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/7b6cd5ad-be21-4af8-bc4f-a3b5c29ed0cb" />
+
+<img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/d9d2631c-d057-4848-9829-dc15043b6527" />
+
+<img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/bb454e85-1b69-4099-b417-f05c37057c8d" />
 
 ## Требования
 
