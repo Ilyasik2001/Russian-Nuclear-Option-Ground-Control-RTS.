@@ -46,7 +46,6 @@
 
 - Плагин, перевод игры и мода Ground Control — Tatarok.
 - Шрифт Tektur — The Tektur Project Authors, SIL Open Font License 1.1.
-- Ground Control (RTS) — его авторы; мод в этот репозиторий не входит.
 
 Подробнее о лицензиях — `LICENSE` и `THIRD_PARTY_NOTICES.md`.
 
@@ -55,9 +54,7 @@
 ## English
 
 Rusifikator Nuclear Option + Ground Control is a Russian translation of Nuclear Option and the
-Ground Control (RTS) mod, as a BepInEx 5 plugin. It translates text only when it appears, so there is no periodic full-scene scan. Install with NOMM
-or extract the release archive into `BepInEx\plugins\Rusifikator-NuclearOption-GroundControl\`.
-Ground Control is optional.
+Ground Control (RTS) mod, as a BepInEx 5 plugin.
 
 ---
 
