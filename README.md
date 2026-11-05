@@ -10,19 +10,35 @@
 
 Работает незаметно. Текст переводится прямо в момент появления на экране, без постоянного перебора всех надписей. Поэтому камера и техника двигаются плавно, без рывков и просадок FPS.
 ## Скрины перевода 
+**Главное меню, без перевода**
+
 <img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/a4677f0f-e953-48ee-af0b-aaab7ec41903" />
+
+**Главное меню, с переводом.** Заодно переведены совет «А вы знали?» и кнопки внизу.
 
 <img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/7d6e9e54-1347-4161-8f96-c00cb69d7ac8" />
 
+**Список миссий, без перевода**
+
 <img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/85fb64da-386d-4c41-a11a-e355d858a14b" />
+
+**Список миссий, с переводом.** Названия миссий и их описания.
 
 <img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/cea9c4c3-d8b4-4235-8194-83a17c721968" />
 
+**Ground Control: окно «Строить» и обучение, без перевода**
+
 <img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/96c814ca-e162-4c3e-b52a-56e1bcfbcf74" />
+
+**То же самое с переводом.** Окна командования, шаги обучения, панель выбранного здания.
 
 <img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/ae0b50ad-d246-4ad2-b5ef-77aeec9f9c0f" />
 
+**Ground Control: депо техники, без перевода**
+
 <img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/d9d2631c-d057-4848-9829-dc15043b6527" />
+
+**Депо техники с переводом.** Список техники, описания, очередь и кнопки.
 
 <img width="978" height="552" alt="image" src="https://github.com/user-attachments/assets/bb454e85-1b69-4099-b417-f05c37057c8d" />
 
